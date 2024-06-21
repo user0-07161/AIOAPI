@@ -19,8 +19,6 @@ class API(BaseHTTPRequestHandler):
         else:
             self.send_error(404, "Page not found")
     def handle_rankcard(self, query_components):
-        img = Image.open("Background-Rankcard.png")
-        draw = ImageDraw.Draw(img)
         for key, values in query_components.items():
             if key == "username":
                 print(f"{key} is {values[0]}")
@@ -35,7 +33,12 @@ class API(BaseHTTPRequestHandler):
             elif key == "nextlevelxp":
                  nextlevelxp = int(values[0])
             elif key == "level":
-                 level = int(values[0])
+                 level = int(values[0])   
+        if currentxp == nextlevelxp:
+            img = Image.open("BackgroundParty-Rankcard.png")
+        else:
+            img = Image.open("Background-Rankcard.png")
+        draw = ImageDraw.Draw(img)
         if nextlevelxp and currentxp:
                  # Creating fraction
            xpfrac = Fraction(currentxp, nextlevelxp)
