@@ -2,7 +2,9 @@
 Yeah so...
 I made this API because of [@realprydev](https://github.com/realprydev)'s discord bot Koopa, which used the vacefron API, till it shut down. As we needed a API, I created this, to cover most of the required functions by Koopa.
 
-# NOTE: I didn't create the [Roboto font](https://fonts.google.com/selection?query=roboto), neither did I create the [crewmate images](https://www.reddit.com/r/AmongUs/comments/iut5y2/couldnt_find_many_pngs_of_the_among_us_characters/#lightbox). 
+# NOTE: I didn't create the [Roboto font](https://fonts.google.com/selection?query=roboto), neither did I create the [crewmate images](https://www.reddit.com/r/AmongUs/comments/iut5y2/couldnt_find_many_pngs_of_the_among_us_characters/#lightbox).
+
+A instance of the API is live at https://smart-dodo-10.telebit.io
 
 | URL example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Result                                                      |   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|---|
