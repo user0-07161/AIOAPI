@@ -1,2 +1,3 @@
 # AIOAPI
-The best API for discord bots - provides a Rank Card API and a "ejected" API.
+Yeah so...
+I made this API because of [@realprydev](https://github.com/realprydev)'s discord bot Koopa, which used the vacefron API, till it shut down. As we needed a API, I created this, to cover most of the required functions by Koopa.
