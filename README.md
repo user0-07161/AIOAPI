@@ -1,3 +1,6 @@
+# THANKS A LOT TO USER0 FOR CREATING THE API!
+
+
 # AIOAPI
 Yeah so...
 I made this API because of [@realprydev](https://github.com/realprydev)'s discord bot Koopa, which used the vacefron API, till it shut down. As we needed a API, I created this, to cover most of the required functions by Koopa.
