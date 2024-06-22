@@ -69,11 +69,11 @@ class API(BaseHTTPRequestHandler):
              img.paste(avt2, (450,20), avt2)
         elif os.path.isfile("avatar.gif"):
              avatar = Image.open("avatar.gif").convert('RGBA')
-             avatar.thumbnail((400,400))
-             img_w, img_h = avatar.size
+             avt2 = avatar.resize((120,120))
+             img_w, img_h = avt2.size
              bg_w, bg_h = img.size
              offset = ((bg_w - img_w) // 2, (bg_h - img_h) // 2)
-             img.paste(avatar, (225,20), avatar)
+             img.paste(avt2, (450,20), avt2)
         else:
              pass
         try:
