@@ -1,4 +1,3 @@
-import random
 from fractions import Fraction
 import random
 import os.path
